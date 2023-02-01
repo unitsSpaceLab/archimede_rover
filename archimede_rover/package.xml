@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>archimede_rover</name>
+  <version>0.1.1</version>
+  <description>todo</description>
+  <maintainer email="sseriani@units.it">Stefano Seriani</maintainer>
+  <author email="matteo.caruso@phd.units.it">Matteo Caruso</author>
+  <author email="sseriani@units.it">Stefano Seriani</author>
+
+  <license>GPLv3</license>
+
+  <url type="website">http://ros.org/wiki/archimede_rover</url>
+  <!-- <url type="bugtracker"></url> -->
+
+  <!-- Dependencies which this package needs to build itself. -->
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <!-- Dependencies needed after this package is compiled. -->
+  <exec_depend>robot4ws_description</exec_depend>
+  <exec_depend>robot4ws-gazebo-plugins</exec_depend>
+  <exec_depend>robot4ws_msgs</exec_depend>
+  <exec_depend>robot4ws_simulations</exec_depend>
+  <exec_depend>robot4ws_teleop_joystick</exec_depend>
+  <exec_depend>robot4ws_kinematics</exec_depend>
+  <exec_depend>robot4ws_teleop_keyboard</exec_depend>
+
+  <export>
+    <metapackage/>
+  </export>
+
+</package>
