@@ -1,0 +1,4 @@
+[submodule "robot4ws_simulations"]
+	path = robot4ws_simulations
+	url = https://github.com/matteocaruso1993/robot4ws_simulations.git
+	branch = melodic
