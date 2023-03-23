@@ -1,26 +1,31 @@
 [submodule "robot4ws_simulations"]
 	path = robot4ws_simulations
 	url = https://github.com/matteocaruso1993/robot4ws_simulations.git
-	branch = melodic
+	branch = main
 [submodule "rover4ws-kinematics"]
 	path = rover4ws-kinematics
 	url = https://github.com/matteocaruso1993/rover4ws-kinematics.git
 [submodule "robot4ws_msgs"]
 	path = robot4ws_msgs
 	url = https://github.com/matteocaruso1993/robot4ws_msgs.git
+	branch = main
 [submodule "robot4ws_description"]
 	path = robot4ws_description
 	url = https://github.com/matteocaruso1993/robot4ws_description.git
-	branch = melodic
+	branch = main
 [submodule "robot4ws-gazebo-plugins"]
 	path = robot4ws-gazebo-plugins
 	url = https://github.com/matteocaruso1993/robot4ws-gazebo-plugins.git
+	branch = main
 [submodule "ros-rover4ws-kinematics"]
 	path = ros-rover4ws-kinematics
 	url = https://github.com/matteocaruso1993/ros-rover4ws-kinematics.git
+	branch = main
 [submodule "robot4ws-teleop-joystick"]
 	path = robot4ws-teleop-joystick
 	url = https://github.com/matteocaruso1993/robot4ws-teleop-joystick.git
+	branch = main
 [submodule "rover4ws_teleop_keyboard"]
 	path = rover4ws_teleop_keyboard
 	url = https://github.com/matteocaruso1993/rover4ws_teleop_keyboard.git
+	branch = main
