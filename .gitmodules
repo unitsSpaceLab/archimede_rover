@@ -1,6 +1,6 @@
 [submodule "robot4ws_simulations"]
 	path = robot4ws_simulations
-	url = https://github.com/matteocaruso1993/robot4ws_simulations.git
+	url = https://github.com/unitsSpaceLab/robot4ws_simulations.git
 	branch = melodic
 [submodule "rover4ws-kinematics"]
 	path = rover4ws-kinematics
