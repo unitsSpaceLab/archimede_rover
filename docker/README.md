@@ -17,7 +17,7 @@ The "network" argument is needed in order to make the processes within the local
 The "privileged" flag is required to use the host's X11 unix socket and the host network driver simultaneously. \
 ```docker run -it --env="DISPLAY" --volume="/tmp/.X11-unix:/tmp/.X11-unix:rw" --privileged --network=host ros-archimede```
 
-# Create a New Docker
+# Create a New Docker from Ros-Archimede Images
 To build new images starting from ros-archimede image, create a new Dockerfile.new_name based on it. Add at the beginning of your file:\
 ``` FROM ros-archimede:latest``` \
 To build it, run within the same directory: \
