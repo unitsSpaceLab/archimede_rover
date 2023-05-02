@@ -12,7 +12,7 @@ To build the docker image from Dockerfile, execute the following whitin the 'Doc
 
 ## Run Container
 Execute the following code to run a container from the previously built image. \
-The "env" and "volume" arguments are required to allow the processes using graphical interfaces. \ 
+The "env" and "volume" arguments are required to allow the processes using graphical interfaces. \
 The "network" argument is needed in order to make the processes within the locally run/hosted container able to communicate with processes run localally. \
 The "privileged" flag is required to use the host's X11 unix socket and the host network driver simultaneously. \
 ```docker run -it --env="DISPLAY" --volume="/tmp/.X11-unix:/tmp/.X11-unix:rw" --privileged --network=host ros-archimede```
