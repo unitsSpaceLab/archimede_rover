@@ -25,4 +25,4 @@ To build it, run within the same directory: \
 
 # Notes
 Dockerfile.ros.melodic.realsense is an example of new image built from the basic Dockerfile image.\
-ros_entrypoint.sh is not actually used by Dockerfile now. \
+ros_entrypoint.sh is not actually used by Dockerfile now. 
