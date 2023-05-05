@@ -28,7 +28,6 @@
 	path = rover4ws_teleop_keyboard
 	url = https://github.com/matteocaruso1993/rover4ws_teleop_keyboard.git
 	branch = melodic
-
 [submodule "robot4ws_slam"]
 	path = robot4ws_slam
-	url = https://github.com/mgiberna/robot4ws_slam
+	url = https://github.com/mgiberna/robot4ws_slam.git
