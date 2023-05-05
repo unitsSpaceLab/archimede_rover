@@ -5,7 +5,6 @@
 -->
 
 <launch>
-  <?ignore
   <!-- not needed as it is already loaded from gazebo-->
   <!--arg declaration for xacro command-->
   
@@ -50,6 +49,7 @@
   <!--not needed because also already run by gazebo-->
   <node name="robot_state_publisher" pkg="robot_state_publisher"
     type="robot_state_publisher" />
+ <?ignore
   ?>
 
 
@@ -66,4 +66,8 @@
 
   <node name="cartographer_occupancy_grid_node" pkg="cartographer_ros"
       type="cartographer_occupancy_grid_node" args="-resolution 0.05" />
+  
+  <node name="rviz" pkg="rviz" type="rviz" required="true"
+    args="-d $(find robot4ws_slam)/configuration_files/rviz/cartographer.rviz" />
+
 </launch>

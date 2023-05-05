@@ -97,10 +97,6 @@ Visualization Manager:
           Show Axes: false
           Show Trail: false
           Value: true
-        Archimede_foot_print:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
         Archimede_fr_steer_link:
           Alpha: 1
           Show Axes: false
@@ -334,8 +330,6 @@ Visualization Manager:
           Value: true
         odom:
           Value: true
-        odom1:
-          Value: true
         rs_d435i_accel_frame:
           Value: false
         rs_d435i_accel_optical_frame:
@@ -371,53 +365,52 @@ Visualization Manager:
       Show Names: true
       Tree:
         map:
-          odom1:
-            odom:
-              Archimede_base_link_real:
-                {}
-              Archimede_foot_print:
-                Archimede_base_link:
-                  Archimede_base_link_dummy:
-                    Archimede_bl_steer_link:
-                      Archimede_bl_wheel_link:
-                        {}
-                    Archimede_br_steer_link:
-                      Archimede_br_wheel_link:
-                        {}
-                    Archimede_fl_steer_link:
-                      Archimede_fl_wheel_link:
-                        {}
-                    Archimede_fr_steer_link:
-                      Archimede_fr_wheel_link:
-                        {}
-                    Archimede_imu_link:
+          odom:
+            Archimede_base_link_real:
+              {}
+            Archimede_foot_print:
+              Archimede_base_link:
+                Archimede_base_link_dummy:
+                  Archimede_bl_steer_link:
+                    Archimede_bl_wheel_link:
                       {}
-                    Archimede_pi_camera_link:
-                      Archimede_pi_camera_color_optical_frame:
-                        {}
-                    Archimede_realsense_d435i_link:
-                      rs_d435i_bottom_screw_frame:
-                        rs_d435i_link:
-                          rs_d435i_accel_frame:
-                            rs_d435i_accel_optical_frame:
-                              {}
-                          rs_d435i_color_frame:
-                            rs_d435i_color_optical_frame:
-                              {}
-                          rs_d435i_depth_frame:
-                            rs_d435i_depth_optical_frame:
-                              {}
-                          rs_d435i_gyro_frame:
-                            rs_d435i_gyro_optical_frame:
-                              {}
-                          rs_d435i_infra1_frame:
-                            rs_d435i_infra1_optical_frame:
-                              {}
-                          rs_d435i_infra2_frame:
-                            rs_d435i_infra2_optical_frame:
-                              {}
-                    Archimede_scan_link:
+                  Archimede_br_steer_link:
+                    Archimede_br_wheel_link:
                       {}
+                  Archimede_fl_steer_link:
+                    Archimede_fl_wheel_link:
+                      {}
+                  Archimede_fr_steer_link:
+                    Archimede_fr_wheel_link:
+                      {}
+                  Archimede_imu_link:
+                    {}
+                  Archimede_pi_camera_link:
+                    Archimede_pi_camera_color_optical_frame:
+                      {}
+                  Archimede_realsense_d435i_link:
+                    rs_d435i_bottom_screw_frame:
+                      rs_d435i_link:
+                        rs_d435i_accel_frame:
+                          rs_d435i_accel_optical_frame:
+                            {}
+                        rs_d435i_color_frame:
+                          rs_d435i_color_optical_frame:
+                            {}
+                        rs_d435i_depth_frame:
+                          rs_d435i_depth_optical_frame:
+                            {}
+                        rs_d435i_gyro_frame:
+                          rs_d435i_gyro_optical_frame:
+                            {}
+                        rs_d435i_infra1_frame:
+                          rs_d435i_infra1_optical_frame:
+                            {}
+                        rs_d435i_infra2_frame:
+                          rs_d435i_infra2_optical_frame:
+                            {}
+                  Archimede_scan_link:
+                    {}
       Update Interval: 0
       Value: true
   Enabled: true
@@ -448,7 +441,7 @@ Visualization Manager:
   Views:
     Current:
       Class: rviz/Orbit
-      Distance: 8.214478492736816
+      Distance: 26.575515747070312
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.05999999865889549
         Stereo Focal Distance: 1
@@ -463,10 +456,10 @@ Visualization Manager:
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.009999999776482582
-      Pitch: 0.4397965967655182
+      Pitch: 1.5697963237762451
       Target Frame: <Fixed Frame>
       Value: Orbit (rviz)
-      Yaw: 2.7672119140625
+      Yaw: 2.407212018966675
     Saved: ~
 Window Geometry:
   Displays:
