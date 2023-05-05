@@ -1,0 +1,5 @@
+FROM ros-archimede:latest
+
+RUN apt-get install -y\
+    ros-melodic-realsense2*
+
