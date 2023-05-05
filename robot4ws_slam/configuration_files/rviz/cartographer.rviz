@@ -5,9 +5,6 @@ Panels:
     Property Tree Widget:
       Expanded:
         - /Global Options1
-        - /Status1
-        - /PointCloud21
-        - /LaserScan1
         - /TF1/Frames1
       Splitter Ratio: 0.5
     Tree Height: 672
@@ -441,7 +438,7 @@ Visualization Manager:
   Views:
     Current:
       Class: rviz/Orbit
-      Distance: 26.575515747070312
+      Distance: 28.497175216674805
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.05999999865889549
         Stereo Focal Distance: 1

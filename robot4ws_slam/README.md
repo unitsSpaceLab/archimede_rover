@@ -6,7 +6,7 @@ Cartographer is a system that provides real-time simultaneous localization and m
 
 Cartographer subscribes to _/clock_, _/tf_, _/Archimede/scan_ (if used), _/Archimede/odom (if used), _/Archimede/imu_ (if used, necessary for 3D SLAM) and _/Archimede/d435i_camera/depth/color/points (if used).
 
-Cartographer publishes to _/tf_, _/rosout_, _/submap\_list_, _/trajectory\_node\_list_, _/scan\_matched\_points2_, _/landmark\_poses\_list_, _/constraint\_list_. \
+Cartographer publishes to _/tf_, _/rosout_, _/submap\_list_, _/trajectory\_node\_list_(array containing ordered xyz of the robot), _/scan\_matched\_points2_, _/landmark\_poses\_list_, _/constraint\_list_. \
 In 2D mode, also _/cartographer\_occupancy\_grid\_node_ runs publishing nav_msgs/OccupancyGrid messages to _/map_, generating an occupancy grid. \
 In 3D mode, only x-ray submaps are published.
 
