@@ -31,3 +31,6 @@
 [submodule "robot4ws_slam"]
 	path = robot4ws_slam
 	url = ./robot4ws_slam/
+[submodule "robot4ws_slam/archimede_rover"]
+	path = robot4ws_slam/archimede_rover
+	url = https://github.com/mgiberna/archimede_rover
