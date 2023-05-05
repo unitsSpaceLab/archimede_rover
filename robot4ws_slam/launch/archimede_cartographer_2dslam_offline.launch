@@ -1,0 +1,14 @@
+<!--
+     @author: Marco Giberna
+     @email: marco.giberna@studenti.units.it
+     @email: marcogiberna@gmail.com
+-->
+
+<launch>
+  <param name="/use_sim_time" value="true" />
+  
+  <include file="$(find robot4ws_slam)/launch/archimede_cartographer_2dslam.launch" />
+ 
+  <node name="playbag" pkg="rosbag" type="play"
+      args="--clock $(arg bag_filename)" />
+</launch>
