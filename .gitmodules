@@ -30,4 +30,4 @@
 	branch = melodic
 [submodule "robot4ws_slam"]
 	path = robot4ws_slam
-	url = ./robot4ws_slam/
+	url = https://github.com/mgiberna/robot4ws_slam.git
