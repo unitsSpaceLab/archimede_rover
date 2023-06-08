@@ -7,15 +7,15 @@
 	url = https://github.com/matteocaruso1993/rover4ws-kinematics.git
 [submodule "robot4ws_msgs"]
 	path = robot4ws_msgs
-	url = https://github.com/matteocaruso1993/robot4ws_msgs.git
+	url = https://github.com/unitsSpaceLab/robot4ws_msgs.git
 	branch = melodic
 [submodule "robot4ws_description"]
 	path = robot4ws_description
-	url = https://github.com/matteocaruso1993/robot4ws_description.git
+	url = https://github.com/unitsSpaceLab/robot4ws_description.git
 	branch = melodic
 [submodule "robot4ws-gazebo-plugins"]
 	path = robot4ws-gazebo-plugins
-	url = https://github.com/matteocaruso1993/robot4ws-gazebo-plugins.git
+	url = https://github.com/unitsSpaceLab/robot4ws-gazebo-plugins.git
 	branch = main
 [submodule "ros-rover4ws-kinematics"]
 	path = ros-rover4ws-kinematics
