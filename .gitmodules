@@ -40,3 +40,7 @@
 	path = robot4ws_visual
 	url = https://github.com/unitsSpaceLab/robot4ws_visual
 	branch = main
+[submodule "traversability_estimation"]
+	path = traversability_estimation
+	url = https://github.com/unitsSpaceLab/traversability_estimation
+	branch = master
