@@ -33,4 +33,5 @@
 	url = https://github.com/mgiberna/robot4ws_slam.git
 [submodule "robot4ws_navigation"]
 	path = robot4ws_navigation
-	url = https://github.com/mgiberna/robot4ws_navigation
+	url = https://github.com/unitsSpaceLab/robot4ws_navigation
+	branch = melodic
