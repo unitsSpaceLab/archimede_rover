@@ -36,3 +36,7 @@
 	path = robot4ws_navigation
 	url = https://github.com/unitsSpaceLab/robot4ws_navigation
 	branch = melodic
+[submodule "robot4ws_visual"]
+	path = robot4ws_visual
+	url = https://github.com/unitsSpaceLab/robot4ws_visual
+	branch = main
