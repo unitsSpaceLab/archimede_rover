@@ -23,7 +23,7 @@
 	branch = melodic
 [submodule "robot4ws-teleop-joystick"]
 	path = robot4ws-teleop-joystick
-	url = https://github.com/matteocaruso1993/robot4ws-teleop-joystick.git
+	url = https://github.com/unitsSpaceLab/robot4ws-teleop-joystick
 [submodule "rover4ws_teleop_keyboard"]
 	path = rover4ws_teleop_keyboard
 	url = https://github.com/matteocaruso1993/rover4ws_teleop_keyboard.git
