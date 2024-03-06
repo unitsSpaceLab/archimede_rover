@@ -19,7 +19,7 @@
 	branch = main
 [submodule "ros-rover4ws-kinematics"]
 	path = ros-rover4ws-kinematics
-	url = https://github.com/matteocaruso1993/ros-rover4ws-kinematics.git
+	url = https://github.com/unitsSpaceLab/ros-rover4ws-kinematics
 	branch = melodic
 [submodule "robot4ws-teleop-joystick"]
 	path = robot4ws-teleop-joystick
