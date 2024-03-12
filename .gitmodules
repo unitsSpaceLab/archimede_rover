@@ -2,45 +2,57 @@
 	path = robot4ws_simulations
 	url = https://github.com/unitsSpaceLab/robot4ws_simulations.git
 	branch = melodic
+	update = rebase
 [submodule "rover4ws-kinematics"]
 	path = rover4ws-kinematics
 	url = https://github.com/matteocaruso1993/rover4ws-kinematics.git
+	update = rebase
 [submodule "robot4ws_msgs"]
 	path = robot4ws_msgs
 	url = https://github.com/unitsSpaceLab/robot4ws_msgs.git
 	branch = melodic
+	update = rebase
 [submodule "robot4ws_description"]
 	path = robot4ws_description
 	url = https://github.com/unitsSpaceLab/robot4ws_description.git
 	branch = melodic
+	update = rebase
 [submodule "robot4ws-gazebo-plugins"]
 	path = robot4ws-gazebo-plugins
 	url = https://github.com/unitsSpaceLab/robot4ws-gazebo-plugins.git
 	branch = main
+	update = rebase
 [submodule "ros-rover4ws-kinematics"]
 	path = ros-rover4ws-kinematics
 	url = https://github.com/unitsSpaceLab/ros-rover4ws-kinematics
 	branch = melodic
+	update = rebase
 [submodule "robot4ws-teleop-joystick"]
 	path = robot4ws-teleop-joystick
 	url = https://github.com/unitsSpaceLab/robot4ws-teleop-joystick
+	update = rebase
 [submodule "rover4ws_teleop_keyboard"]
 	path = rover4ws_teleop_keyboard
 	url = https://github.com/unitsSpaceLab/rover4ws_teleop_keyboard
 	branch = melodic
+	update = rebase
 [submodule "robot4ws_slam"]
 	path = robot4ws_slam
 	url = https://github.com/unitsSpaceLab/robot4ws_slam
 	branch = melodic
+	update = rebase
 [submodule "robot4ws_navigation"]
 	path = robot4ws_navigation
 	url = https://github.com/unitsSpaceLab/robot4ws_navigation
 	branch = melodic
+	update = rebase
 [submodule "robot4ws_visual"]
 	path = robot4ws_visual
 	url = https://github.com/unitsSpaceLab/robot4ws_visual
 	branch = main
+	update = rebase
 [submodule "traversability_estimation"]
 	path = traversability_estimation
 	url = https://github.com/unitsSpaceLab/traversability_estimation
 	branch = master
+	update = rebase
