@@ -61,3 +61,6 @@
 	url = git@github.com:unitsSpaceLab/robot4ws_mapping.git
 	branch = melodic
 	update = rebase
+[submodule "robot4ws_perception"]
+	path = robot4ws_perception
+	url = git@github.com:unitsSpaceLab/robot4ws_perception.git
