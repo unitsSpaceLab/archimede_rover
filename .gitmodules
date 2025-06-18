@@ -58,9 +58,11 @@
 	update = rebase
 [submodule "robot4ws_mapping"]
 	path = robot4ws_mapping
-	url = git@github.com:unitsSpaceLab/robot4ws_mapping.git
+	url = https://github.com/unitsSpaceLab/robot4ws_mapping
 	branch = melodic
 	update = rebase
 [submodule "robot4ws_perception"]
 	path = robot4ws_perception
-	url = git@github.com:unitsSpaceLab/robot4ws_perception.git
+	url = https://github.com/unitsSpaceLab/robot4ws_perception
+	branch = melodic
+	update = rebase
