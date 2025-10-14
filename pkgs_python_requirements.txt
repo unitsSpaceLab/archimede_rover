@@ -1,0 +1,17 @@
+# robot4ws_msgs, needed for rosidl_generator_py (ROS2 only)
+empy==3.3.4 # version 4.1 tried, and gives some error
+lark
+
+# kinematics
+rospkg
+quaternion #not sure
+numpy-quaternion
+
+# teleop keyboard
+pynput
+
+# terrain slip plugin
+joblib
+
+# cmd_vel_publisher node
+pandas
