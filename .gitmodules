@@ -33,3 +33,8 @@
 	url = https://github.com/unitsSpaceLab/robot4ws-teleop-joystick.git
 	branch = ros2_humble
         update = rebase
+[submodule "gz_terramechanics"]
+	path = gz_terramechanics
+	url = https://github.com/unitsSpaceLab/gz-terramechanics.git
+	branch = devel
+        update = rebase
