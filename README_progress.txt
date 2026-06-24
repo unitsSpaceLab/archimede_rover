@@ -7,8 +7,6 @@ robot4ws_msgs  --->     DONE (should work)
 (PUSHED)
 rover4ws_teleop_keyboard  --->  DONE (should work)
 
-robot4ws_description2  --->   PARTIALLY DONE (xacros/urdfs should work (see visualize.launch), controllers.launch unchecked)
-
 (PUSHED)
 robot4ws_description  --->  PARTIALLY DONE, works in gazebo, sensors should be ok (IMU, rs, laser scan, optional 3d lidar)
                             TODO: - rocker differential
@@ -23,6 +21,13 @@ robot4ws_kinematics  --->   OK (should work in general)
 (PUSHED)
 robot4ws_gazebo_plugins  --->   WORK IN PROGRESS: - kinematic plugin: DONE - JointsControllerPlugin (works with actuator_msgs/msg/Actuators) / JointsControllerPluginDynamixel
                                                   - odometry: DONE - implemented directly in robot4ws_description with official OdometryPublisher plugin
-                                TO DO: - terramechanics and terrain_ml_model plugins
+                                                  - terramechanics plugin: DONE -> in [*gz_terramechanics*](https://github.com/unitsSpaceLab/gz-terramechanics.git) repo
+                                TO DO: - terrain ml model plugin
+
+(PUSHED)
+robot4ws_teleop_joystick
+
+(PUSHED)
+robot4ws_simulations
 
 -------------------------------------------------------
